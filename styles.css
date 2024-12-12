@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: black;
+  font-weight: bold;
+}
+
+.button-green {
+  background-color: #4CAF50;
+}
+
+.button-green:hover {
+  background-color: #45a049;
+}
+
+.button-orange {
+  background-color: #FFA500;
+}
+
+.button-orange:hover {
+  background-color: #e09900;
+}
+
+.form-container {
+  text-align: left;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.form-select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.musician-list {
+  margin-top: 20px;
+}
+
+.musician-item {
+  margin-bottom: 20px;
+}
+
+.summary {
+  margin-top: 40px;
+}
+
+.summary-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.summary-item {
+  margin-bottom: 10px;
+}
+
+.confirm-button {
+  margin-top: 20px;
+  background-color: #4CAF50;
+  color: black;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.confirm-button:hover {
+  background-color: #45a049;
+}
+
+.home-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}
+
+.completed-container {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.completed-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.completed-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.action-buttons {
+  margin-top: 20px;
+}
+
+.action-button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: black;
+  font-weight: bold;
+}
+
+.action-button-green {
+  background-color: #4CAF50;
+}
+
+.action-button-green:hover {
+  background-color: #45a049;
+}
+
+.action-button-blue {
+  background-color: #007BFF;
+}
+
+.action-button-blue:hover {
+  background-color: #0056b3;
+}
